@@ -64,7 +64,9 @@
         }
 
         .modal-title {
-            margin: 0 auto;
+            position: relative;
+            transform: translate(-50%, 0);
+            left: 50%;
             font-size: 40px;
             font-weight: bold;
         }
@@ -113,11 +115,6 @@
             .donate_img {
                 max-height: 220px;
             }
-            #actionModal_donate .modal-body{
-                height:100%;
-            }
-
-
         }
 
 
@@ -245,12 +242,14 @@
         #action {
             margin-top: 30px;
         }
-        #actionModal_donate .modal-body{
-            height:60vh;
+
+        #actionModal_donate .modal-body {
+            height: 60vh;
         }
+
         @media screen and (max-width: 992px) {
-            #actionModal_donate .modal-body{
-                height:100%;
+            #actionModal_donate .modal-body {
+                height: 100%;
             }
         }
 
@@ -1444,33 +1443,41 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body" >
+                    <div class="modal-body">
                         <!-- style="height:60vh;" -->
                         <div class="d-flex flex-wrap align-items-center" style="height:100%;">
                             <!-- 定期定額1 -->
-                            <img width="100%" src="./img/donateicon/donate_1.png" alt="" class="btn donate col-lg-3 col-6 donate_img"
-                                href="#donate_1" data-placement="bottom" data-trigger="hover" data-toggle="modal">
+                            <img width="100%" src="./img/donateicon/donate_1.png" alt=""
+                                class="btn donate col-lg-3 col-6 donate_img" href="#donate_1" data-placement="bottom"
+                                data-trigger="hover" data-toggle="modal">
                             <!-- 線上刷卡2 -->
-                            <img width="100%" src="./img/donateicon/donate_2.png" alt="" class="btn donate col-lg-3 col-6 donate_img"
-                                href="#donate_2" data-placement="bottom" data-trigger="hover" data-toggle="modal">
+                            <img width="100%" src="./img/donateicon/donate_2.png" alt=""
+                                class="btn donate col-lg-3 col-6 donate_img" href="#donate_2" data-placement="bottom"
+                                data-trigger="hover" data-toggle="modal">
                             <!-- 轉帳3 -->
-                            <img width="100%" src="./img/donateicon/donate_3.png" alt="" class="btn donate col-lg-3 col-6 donate_img"
-                                href="#donate_3" data-placement="bottom" data-trigger="hover" data-toggle="modal">
+                            <img width="100%" src="./img/donateicon/donate_3.png" alt=""
+                                class="btn donate col-lg-3 col-6 donate_img" href="#donate_3" data-placement="bottom"
+                                data-trigger="hover" data-toggle="modal">
                             <!-- 郵政劃撥4 -->
-                            <img width="100%" src="./img/donateicon/donate_4.png" alt="" class="btn donate col-lg-3 col-6 donate_img"
-                                data-placement="bottom" data-trigger="hover" data-toggle="modal" href="#donate_4">
+                            <img width="100%" src="./img/donateicon/donate_4.png" alt=""
+                                class="btn donate col-lg-3 col-6 donate_img" data-placement="bottom"
+                                data-trigger="hover" data-toggle="modal" href="#donate_4">
                             <!-- 超商繳款(列印條碼)5 -->
-                            <img width="100%" src="./img/donateicon/donate_5.png" alt="" class="btn donate col-lg-3 col-6 donate_img"
-                                href="#donate_5" data-placement="bottom" data-toggle="modal">
+                            <img width="100%" src="./img/donateicon/donate_5.png" alt=""
+                                class="btn donate col-lg-3 col-6 donate_img" href="#donate_5" data-placement="bottom"
+                                data-toggle="modal">
                             <!-- 超商繳款(IBON)6 -->
-                            <img width="100%" src="./img/donateicon/donate_6.png" alt="" class="btn donate col-lg-3 col-6 donate_img"
-                                href="#donate_6" data-placement="bottom" data-toggle="modal">
+                            <img width="100%" src="./img/donateicon/donate_6.png" alt=""
+                                class="btn donate col-lg-3 col-6 donate_img" href="#donate_6" data-placement="bottom"
+                                data-toggle="modal">
                             <!-- 手機捐款7 -->
-                            <img width="100%" src="./img/donateicon/donate_7.png" alt="" class="btn donate col-lg-3 col-6 donate_img"
-                                data-placement="bottom" data-toggle="modal" href="#donate_7" data-toggle="modal">
+                            <img width="100%" src="./img/donateicon/donate_7.png" alt=""
+                                class="btn donate col-lg-3 col-6 donate_img" data-placement="bottom" data-toggle="modal"
+                                href="#donate_7" data-toggle="modal">
                             <!-- 臨櫃捐款8 -->
-                            <img width="100%" src="./img/donateicon/donate_8.png" alt="" class="btn donate col-lg-3 col-6 donate_img"
-                                href="#donate_8" data-content="親臨愛兔之家並將您的愛心捐款交付現場值班志工，並索取捐款收據。" data-placement="bottom"
+                            <img width="100%" src="./img/donateicon/donate_8.png" alt=""
+                                class="btn donate col-lg-3 col-6 donate_img" href="#donate_8"
+                                data-content="親臨愛兔之家並將您的愛心捐款交付現場值班志工，並索取捐款收據。" data-placement="bottom"
                                 data-toggle="modal" href="#donate_8" data-toggle="modal">
 
                         </div>
